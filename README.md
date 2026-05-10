@@ -1,8 +1,6 @@
 # Closed-Loop Telemetry for AI-Augmented Engineering
 ## A JSONL Event Bus for Non-Deterministic Systems
 
-*Status: DRAFT (sanitization pass required before publish)*
-
 ---
 
 ## The Problem
@@ -58,7 +56,7 @@ Every event shares a common *envelope*, a consistent wrapper that makes events f
   "timestamp": "2026-04-24T19:16:13Z",
   "source_layer": "post_tool",
   "event_type": "tool_call_completed",
-  "payload": { ... }
+  "payload": { "...": "..." }
 }
 ```
 
